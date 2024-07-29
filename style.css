@@ -6,8 +6,13 @@ html{
     scroll-behavior: smooth;
 }
 
-wrapper{
+a{
+    text-decoration: none;
+}
+.wrapper{
     max-width: 100%;
+    width: 80%;
+    padding-left: 80px;
 }
 
 ul{
@@ -19,14 +24,23 @@ ul{
 .navbut ul li{
     display: flex;
     padding-left: 100px;
+    font-family:"Libre Baskerville";
 }
-.bigwrap{
+.navbut ul li a{
+    background-color: #E6CAC1;
+}
+.big-wrap{
     height: 100%;
     width: 50vw;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: #FFDED4;
+}
+.big-wrap h1{
+    margin-bottom: 65px;
+    font-size: 90px;
 }
 .wrapper2 img{
     height: 100%;
@@ -50,4 +64,6 @@ body{
 p{  
     position:relative;
     font-family: "Libre Baskerville";
+    font-size: 20px;
 }
+
