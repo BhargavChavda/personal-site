@@ -28,6 +28,7 @@ ul{
 }
 .navbut ul li a{
     background-color: #E6CAC1;
+    padding: 20px;
 }
 .big-wrap{
     height: 100%;
