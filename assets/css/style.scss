@@ -13,12 +13,14 @@ section.landing-section{
 
     .content-wrapper{
         width: 50%;
+        height: 100vh;
         display: flex;
         flex-direction: column;
         padding: 50px;
         justify-content: space-between;
         @media screen and (max-width: 500px) {
             padding: 30px;
+            height: 100vh;
         }
 
         nav{
@@ -100,12 +102,11 @@ section.landing-section{
     
     section.landing-section{
         height: unset;
-        flex-direction: column-reverse;
+        flex-direction: column;
 
         .content-wrapper{
             width: 100%;
             gap: 50px;
-
             nav{
 
                 ul{

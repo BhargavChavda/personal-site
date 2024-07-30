@@ -12,6 +12,7 @@ section.landing-section {
   background: #FFDED4;
 }
 section.landing-section .content-wrapper {
+  height: 100vh;
   width: 50%;
   display: flex;
   flex-direction: column;
